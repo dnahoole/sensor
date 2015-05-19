@@ -1,0 +1,18 @@
+#menubox {
+    float: left;
+    font-weight: bold;
+    border: 2px outset black;
+    width: 90%;
+    height: 5%;
+    background-color: lightgrey;
+    margin: 2px;
+    padding: 2px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    transition: height 1s, color 1s, background-color 1s;
+    overflow: hidden;
+}
+
+.menu_item {
+    padding-left: 20px;
+}

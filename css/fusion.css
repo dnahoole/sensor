@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    height: 3%;
+    width: 40%;
+    padding: 2px;
+    z-index: 10;
+}
+
+#address {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+#goto {
+    margin: 2px;
+    float: left;
+    width: 10%;
+    height: 100%;
+}
+
+#menubox {
+    float: left;
+    font-weight: bold;
+    border: 2px outset black;
+    width: 30%;
+    height: 100%;
+    background-color: lightgrey;
+    opacity: 0.9;
+    margin: 2px;
+    padding: 2px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    transition: height 1s, color 1s, background-color 1s;
+    overflow: hidden;
+}
+
+.menu_item {
+    padding-left: 20px;
+}
+
+.top-side {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.bottom-side {
+    position: absolute;
+    top: 90%;
+    height: 6%;
+    width: 100%;
+    z-index: 10;
+}
+
+#sec1 {
+    background-color: lightgrey;
+    opacity: 0.9;
+    position: absolute;
+    top: 93%;
+    height: 6%;
+    width: 49.5%;
+    border: 1px solid black;
+    overflow: scroll;
+    transition: height 1s, top 1s;
+    z-index: 10;
+}
+
+#sec2 {
+    background-color: lightgrey;
+    opacity: 0.9;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    height: 6%;
+    width: 49.5%;
+    border: 1px solid black;
+    overflow: scroll;
+    transition: height 1s, top 1s;
+    z-index: 10;
+}
+
+.moths {
+    height: auto;
+    width: 50%;
+}
+
+h2, h4 {
+    margin: 2px;
+    text-align: center;
+}
+
+#analytics {
+  width: 100%;
+  height: 270px;
+}
+
+#sec2info {
+    overflow: hidden;
+}
